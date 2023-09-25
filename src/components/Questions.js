@@ -42,12 +42,6 @@ function Questions() {
       >
         We are here to help. Get in touch!
       </Typography>
-      <Box
-        component="img"
-        src="/static/themes/onepirate/productBuoy.svg"
-        alt="buoy"
-        sx={{ width: 60 }}
-      />
     </Container>
   );
 }
