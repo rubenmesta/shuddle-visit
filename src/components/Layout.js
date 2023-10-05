@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <Navbar
-          logo={<Logo width={70} />}
+          logo={<Logo width={100} />}
           background={'#006130'}
           itemsColor={colors.white[500]}
           items={navItems.map((i) => {
