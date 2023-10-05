@@ -18,7 +18,7 @@ function Questions() {
     >
       <Button
         sx={{
-          border: `4px solid ${colors.black[800]}`,
+          border: `4px solid ${colors.primary[900]}`,
           borderRadius: 0,
           height: 'auto',
           py: 2,
@@ -28,8 +28,8 @@ function Questions() {
         <Typography
           variant="h4"
           component="span"
-          fontFamily={'Anton'}
-          color={colors.black[800]}
+          fontFamily={'IBM Plex Serif'}
+          color={colors.primary[900]}
         >
           Got any questions? Need help?
         </Typography>

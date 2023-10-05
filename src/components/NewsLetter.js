@@ -25,7 +25,11 @@ function NewsLetter() {
   return (
     <Container
       component="section"
-      sx={{ mt: 30, display: 'flex', flexDirection: 'column' }}
+      sx={{
+        mt: 30,
+        display: 'flex',
+        flexDirection: 'column',
+      }}
     >
       <Grid container>
         <Grid item xs={12} md={6} sx={{ zIndex: 1 }}>
@@ -33,7 +37,7 @@ function NewsLetter() {
             sx={{
               display: 'flex',
               justifyContent: 'center',
-              bgcolor: colors.secondary[100],
+              bgcolor: colors.apricot[500],
               py: 8,
               px: 3,
             }}
@@ -44,10 +48,10 @@ function NewsLetter() {
               sx={{ maxWidth: 400 }}
             >
               <Typography
-                variant="h2"
-                component="h2"
+                variant="h3"
+                fontWeight={700}
                 gutterBottom
-                fontFamily={'Anton'}
+                fontFamily={'IBM Plex Serif'}
               >
                 Connect with Us
               </Typography>
@@ -75,7 +79,7 @@ function NewsLetter() {
           <Box
             sx={{
               position: 'absolute',
-              top: -67,
+              top: -97,
               left: -67,
               right: 0,
               bottom: 0,
@@ -85,11 +89,11 @@ function NewsLetter() {
           />
           <Box
             component="img"
-            src="/img/unsplash.jpg"
+            src="/img/guys.jpg"
             alt="call to action"
             sx={{
               position: 'absolute',
-              top: -28,
+              top: -67,
               left: -28,
               right: 0,
               bottom: 0,
